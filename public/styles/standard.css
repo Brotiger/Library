@@ -1,0 +1,16 @@
+table {
+    max-width: 600px;
+}
+tbody {
+    max-height: 400px;
+    overflow-y: auto;
+    display: block;
+}
+thead{
+    display: block;
+}
+@media screen and (max-width: 575px) {
+    tbody {
+        max-height: 100%;
+    }
+}
