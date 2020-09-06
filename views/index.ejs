@@ -1,13 +1,13 @@
 <%- include("layouts/head") %>
-<h1 class="text-center mt-4 mt-sm-5 h2">Library page</h1>
+<h1 class="text-center mt-4 mt-sm-5 h2">Библиотека</h1>
 <% if(books.length){ %>
     <div class="mt-4">
         <table class="table mx-auto table-striped mb-0">
             <thead class="container">
                 <tr class="row thead-dark">
                     <th class="col-2 col-sm-1">#</th>
-                    <th class="col-6 col-sm-8">Book name</th>
-                    <th class="col-4 col-sm-3">Authors</th>
+                    <th class="col-6 col-sm-8">Название книги</th>
+                    <th class="col-4 col-sm-3">Авторы</th>
                 </tr>
             </thead>
             <tbody class="container overflow-auto border-bottom">
@@ -26,6 +26,6 @@
         </table>
     </div>
 <% } else { %>
-    <p class="text-center">No books in library</p>
+    <p class="text-center">Книг удовлетворяющих запросу не найдено</p>
 <% } %>
 </body>

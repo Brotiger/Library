@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const libraryRoutes = require('./router')
+const libraryRoutes = require('./components/router')
 const fs = require("fs")
 
 require('dotenv').config()
